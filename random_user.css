@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    padding:2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h2{
+    color: aqua;
+    text-align: center;
+}
+.row{
+    display: flex;
+
+}
+.column{
+    flex: 50%;
+}
+#avatar-img{
+    margin:0.3em;
+    border-radius: 5em;
+}
+.user-profile{
+    margin:auto;
+    padding: 0.5em;
+    width: 20em;
+    background-color: antiquewhite;
+    border-radius: 0.4em;
+    color: black;
+}
+#full-name{
+    font-size: 0.95em;
+    font-weight: bold;
+
+}
+#username{
+    font-size: 0.8em;
+}
+#user-details{
+    margin-top: 1em;
+    font-size: 0.8em;
+    color: teal;
+}
